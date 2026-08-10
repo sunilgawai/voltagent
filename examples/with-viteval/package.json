@@ -36,8 +36,8 @@
     "directory": "examples/with-viteval"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx watch --env-file=.env ./src",
+    "build": "node init && tsc",
+    "dev": "node init && tsx watch --env-file=.env ./src",
     "eval": "viteval",
     "question": "tsx ./src/cli.ts",
     "volt": "volt"

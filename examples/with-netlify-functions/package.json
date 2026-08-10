@@ -33,10 +33,10 @@
     "directory": "examples/with-netlify-functions"
   },
   "scripts": {
-    "build": "tsc --project tsconfig.json",
+    "build": "node init && tsc --project tsconfig.json",
     "deploy": "netlify deploy --prod",
     "deploy:preview": "netlify deploy --dir . --functions netlify/functions",
-    "dev": "netlify dev --dir . --functions netlify/functions",
+    "dev": "node init && netlify dev --dir . --functions netlify/functions",
     "typecheck": "tsc --noEmit",
     "volt": "volt"
   },

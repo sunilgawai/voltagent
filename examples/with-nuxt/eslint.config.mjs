@@ -8,4 +8,4 @@ export default withNuxt(
             '@stylistic/indent': ['error', 4]
         }
     }
-)
+);

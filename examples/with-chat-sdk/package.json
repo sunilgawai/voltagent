@@ -35,9 +35,9 @@
     "directory": "examples/with-chat-sdk"
   },
   "scripts": {
-    "build": "next build",
-    "dev": "next dev --turbopack",
-    "start": "next start",
+    "build": "node init && next build",
+    "dev": "node init && next dev --turbopack",
+    "start": "node init && next start",
     "volt": "volt"
   }
 }

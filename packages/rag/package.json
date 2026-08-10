@@ -32,8 +32,8 @@
     "directory": "packages/rag"
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsup",
+    "dev": "node init && tsup --watch",
     "test": "vitest --reporter=hanging-process --reporter=default --typecheck",
     "test:coverage": "vitest run --coverage --typecheck"
   },

@@ -35,10 +35,10 @@
     "directory": "examples/with-cloudflare-workers"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "deploy": "wrangler deploy",
     "deploy:production": "wrangler deploy --env production",
-    "dev": "tsc && wrangler dev",
+    "dev": "node init && tsc && wrangler dev",
     "preview": "tsc && wrangler dev --local",
     "tail": "wrangler tail",
     "volt": "volt"

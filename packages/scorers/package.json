@@ -46,8 +46,8 @@
     "directory": "packages/scorers"
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsup",
+    "dev": "node init && tsup --watch",
     "lint": "biome check .",
     "lint:fix": "biome check . --write",
     "test": "vitest run"

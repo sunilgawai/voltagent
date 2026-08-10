@@ -21,8 +21,8 @@
     "directory": "examples/with-copilotkit/client"
   },
   "scripts": {
-    "build": "vite build",
-    "dev": "vite",
+    "build": "node init && vite build",
+    "dev": "node init && vite",
     "lint": "echo \"no lint configured\"",
     "preview": "vite preview"
   },
