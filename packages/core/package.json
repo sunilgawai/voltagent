@@ -94,8 +94,8 @@
   },
   "scripts": {
     "attw": "attw --pack",
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsup",
+    "dev": "node init && tsup --watch",
     "generate:model-registry": "node scripts/generate-model-provider-registry.js",
     "lint": "biome check .",
     "lint:fix": "biome check . --write",

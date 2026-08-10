@@ -29,9 +29,9 @@
     "directory": "examples/with-resumable-streams"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx watch --env-file=.env ./src/index.ts",
-    "start": "tsx --env-file=.env ./src/index.ts"
+    "build": "node init && tsc",
+    "dev": "node init && tsx watch --env-file=.env ./src/index.ts",
+    "start": "node init && tsx --env-file=.env ./src/index.ts"
   },
   "type": "module"
 }

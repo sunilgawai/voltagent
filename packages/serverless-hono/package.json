@@ -33,8 +33,8 @@
     "directory": "packages/serverless-hono"
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsup",
+    "dev": "node init && tsup --watch",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },

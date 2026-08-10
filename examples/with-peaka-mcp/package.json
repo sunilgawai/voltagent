@@ -28,9 +28,9 @@
     "directory": "examples/with-peaka-mcp"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx watch --env-file=.env ./src -- --trace-warnings",
-    "start": "node dist/index.js",
+    "build": "node init && tsc",
+    "dev": "node init && tsx watch --env-file=.env ./src -- --trace-warnings",
+    "start": "node init && node dist/index.js",
     "volt": "volt"
   },
   "type": "module"

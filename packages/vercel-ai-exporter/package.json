@@ -51,8 +51,8 @@
   },
   "scripts": {
     "attw": "attw --pack",
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "node init && tsup",
+    "dev": "node init && tsup --watch",
     "lint": "biome check src/",
     "lint:fix": "biome check --write src/",
     "publint": "publint --strict",

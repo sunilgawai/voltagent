@@ -35,9 +35,9 @@
     "directory": "examples/with-client-side-tools"
   },
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "start": "next start",
+    "build": "node init && next build",
+    "dev": "node init && next dev",
+    "start": "node init && next start",
     "voltagent:run": "tsx --env-file=.env ./voltagent/server.ts"
   }
 }

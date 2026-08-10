@@ -9,8 +9,6 @@ build
 .turbo
 
 # Environment
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -32,7 +30,6 @@ lerna-debug.log*
 
 # Editor directories and files
 .idea
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 *.suo
@@ -161,7 +158,6 @@ vitest.config.*.timestamp*
 .ignore
 
 # vscode
-.vscode
 
 # claude
 .claude
@@ -188,3 +184,7 @@ node_modules/
 
 # example skills
 !examples/with-workspace/workspace/skills
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
