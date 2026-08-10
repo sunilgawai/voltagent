@@ -188,3 +188,6 @@ node_modules/
 
 # example skills
 !examples/with-workspace/workspace/skills
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
